@@ -7,12 +7,12 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Strong ID For Dapper</Title>
     <Authors>Bradley Minogue</Authors>
-    <Description>Value Converter For Strong ID</Description>
+    <Description>Value Converter For Strong ID with Dapper</Description>
     <RepositoryUrl>https://github.com/minogb/StrongIDForEntityFramework</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>database; api; strong; type</PackageTags>
+    <PackageTags>database; api; strong; type; dapper; TypeHandler</PackageTags>
     <Version>1.0.2</Version>
-    <PackageId>Minogb.Strong.ID.EntityConverter</PackageId>
+    <PackageId>Minogb.Strong.ID.TypeHandler</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.72" />
