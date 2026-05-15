@@ -2,9 +2,7 @@
 using Dapper;
 using System;
 using System.Data;
-using System.Linq;
 using System.Numerics;
-using System.Security.Cryptography;
 
 namespace Strong.ID {
     public class GenericIDTypeHandler<T,J> : SqlMapper.TypeHandler<GenericID<T,J>> where J : IComparable {
